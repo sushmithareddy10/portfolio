@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: ;
+}
+
+p,a{
+    font-family: ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fix-center{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+    width:100%;
+}
+header{
+    background-color: #202124;
+    padding-top: 20px;
+    overflow: auto;
+}
+header .logo{
+    max-width: 125px;
+    float: left;
+    
+}
+header .hamburger{
+    background-color: red;
+    max-width: 60px;
+    height:40px;
+    border-radius: 30px;
+    padding-left: 8px;
+    padding-top: 5px;
+    float: right;
+    
+}
+header .hamburger span{
+    background-color: white;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 1px; 
+    text-align: center; 
+    
+}
+
+section{
+    background-color: #202124;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 150px ;
+    position: relative;
+}
+section .heading{
+    max-width: 420px;
+    padding-top: 20px;
+
+}
+section .font-icons{
+   display: block;
+   position: absolute;
+   right: 0; 
+   text-align: center;
+}
+
+section .heading h6{
+    line-height: 25px;
+    padding-top: 30px ;
+}
+
+section .heading::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 7px; 
+    background-color: #4682B4;
+    top: 65%;
+    left: 15px;
+
+}
+
+
+
+
+
+
