@@ -75,6 +75,7 @@ section{
 section .heading{
     max-width: 420px;
     padding-top: 20px;
+    font-weight: bolder;
 
 }
 section .font-icons{
