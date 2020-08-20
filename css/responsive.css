@@ -1,0 +1,47 @@
+@media screen and (max-width:992px)
+{
+    .fix-center{
+        width: 90%;
+    }
+
+    .font-icons a{
+        display: inline-block;
+        padding: 0px 20px;
+    }
+
+    .font-icons{
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+     .banner{
+         padding: 20px 0px;
+     }
+    .banner .heading{
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 30px;
+        max-width: 100%;
+        
+       
+    }
+    .heading h1::after{
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    
+}
+@media screen and (max-width:330px)
+{
+     .banner{
+         height: 110vh;
+     }
+}
+@media screen and (max-width:992px)
+{
+}
+@media screen and (max-width:992px)
+{
+}

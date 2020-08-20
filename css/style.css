@@ -11,181 +11,190 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif ;
 }
 
 p,a{
-    font-family: 'Open Sans', sans-serif;
+    font-family: ;
 }
 
 a{
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+   text-decoration: none;
 }
 
 .fix-center{
     max-width: 1200px;
     margin: 0 auto;
 }
-@media screen and (max-width:992px)
-{
-    .fix-center{
-        width: 90%;
-    }
-    section .heading{
-      max-width: 100%;
-    }
 
-    .font-icons a{
-        display: inline-block;
-        padding-top: 250px;
-        padding-right: 20px;
-        padding-left: 20px ;
-        text-align: center;
-    }
+.fit-center{
+    max-width: 700px;
+    margin: 0 auto;
 }
-
 
 img{
     max-width: 100%;
     width:100%;
 }
+
 header{
     background-color: #202124;
-    padding-top: 20px;
     overflow: auto;
+    padding-top: 20px;
 }
+
 header .logo{
-    max-width: 125px;
+    max-width: 150px;
     float: left;
     
 }
+
 header .hamburger{
     background-color: red;
     width: 40px;
     height: 40px;
-    border-radius: 30px;
-    padding-left: 9px;
-    padding-top: 2px;
-    margin-right: 15px;
+    border-radius: 20px;
     float: right;
 }
+
 header .hamburger span{
     background-color: white;
     display: inline-block;
-    width: 4px;
-    height: 4px;
-    border-radius: 1px; 
-    text-align: center; 
-    
+    width: 5px;
+    height: 6px;
+    margin-left: 3px;
+    margin-top: 16px;
 }
 
-section{
+.banner{
     background-color: #202124;
-    color: white;
-    padding-top: 150px;
-     height: 90vh;
+    height: 92vh;
     position: relative;
+    padding: 50px 0px;
 }
-section .heading{
+
+.heading{
+    color: white;
     max-width: 420px;
-    padding-top: 20px;
-    font-weight: bolder;
-
-}
-section .font-icons{
-   display: block;
-   position: absolute;
-   right: 0; 
-   text-align: center;
+    padding-top: 100px;
+   
 }
 
-section .heading h6{
-    line-height: 25px;
-    padding-top: 30px ;
+.heading h1{
+    font-family:  'Work Sans', sans-serif;
+    position: relative;
+    padding-bottom: 20px;
 }
-
-section .heading::after{
-    content: '';
-    position: absolute;
-    width: 50%;
-    height: 7px; 
-    background-color: #4682B4;
-    top: 65%;
-    left: 15px;
-
-}
-.name{
-    margin-top: 100px;
-    position: absolute;
-    right: 80px;
-}
-.name h3{
-    font-weight: 600;
-}
-.name span{
-    color: #4682B4 ;
-}
-.name span span{
-    color: red;
-}
-.photo{
-    margin-top: 200px;
-    
-}
-.description{
-    margin-top: 100px;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: justify;
-    margin-left: 80px;
-}
-.description h6{
+.heading h6{
+    font-family: 'Open Sans', sans-serif;
     line-height: 30px;
 }
-#link{
-    background-color: red;
-    text-align: center;
-    width: 250px;
-    height: 100px;
-    line-height: 10px;
-    padding-top: 15px;
-    margin-left: -150px;
-    margin-top: 130px;
-}
-.sills-heading h4{
-    margin-top: 150px;
-    margin-bottom: 50px;
-    position: relative;
-    left: 70%;
-    font-weight: 700;
-}
-.sills-heading h4 span{
-    color: red;
-    font-size: 30px;
-}
-.skills{
+.heading h1::after{
+    content: ' ';
     position: absolute;
-    left: 20%;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 5px;
+    background-color: #008B8B;
+}
+.font-icons{
+    margin-top: 10px;
+    text-align: right;
 
 }
-.skills #skill-row div{
-    width: 220px;
-    height: 250px;
-    margin-left: 30px;
-    margin-right: 30px;
+.font-icons a{
+    color: white;
+   display: block;
+   padding: 20px 0px;
+   
 }
-.skills #skill-row img{
-    width: 70px;
-    height: 7opx;
-    margin-bottom: 30px;
+
+.introduction{
+    padding: 80px 0;
+    padding-top: 150px;
 }
-.skills #skill-row div h4{
+
+.name h3{
+    max-width: 300px;
+    line-height: 40px;
+    margin-left: auto;
+    margin-bottom: 60px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+.name h3 .name-color{
+    color: #008B8B;
+}
+.name h3 .dot-color{
+    color: red;
+}
+
+.introduction .name .grey-image{
+    padding-top: 50px;
+}
+
+.name h3::before{
+    content: ' ';
+    width: 160px;
+    height: 1px;
+    position: absolute;
+    left: 120px;
+    top: -20px;
+    background-color: red;
+    transform: rotate(-35deg);
+}
+
+.description p{
+     max-width: 700px;
+}
+
+.two-lines{
+    color: red;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+   padding-left: 15px;
+}
+
+.two-lines::after{
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 1.2px;
+    left: -5px;
+    bottom: 6px;
+    background-color: red;
+    transform: rotate(-111deg);
+    
+}
+.two-lines::before{
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 1.2px;
+    left: 0px;
+    bottom: 6px;
+    background-color: red;
+    transform: rotate(-111deg);
+}
+
+.portfolio a{
+    display: block;
+    font-size: 12px;
     font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 10px;
+    padding-top: 30px ;
+    line-height: 2px;
+    color: white;
+    padding-left: 100px;
+    border-left: solid 5px white;
 }
 
+.portfolio{
+    background-color: red;
+    width: 280px;
+    height: 100px;
+    margin-top: 120px;
+    margin-left: -90px;
+
+}
