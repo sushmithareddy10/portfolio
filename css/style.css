@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 p,a{
-    font-family: ;
+    font-family: sans-serif;
 }
 
 a{
@@ -28,7 +28,7 @@ a{
 }
 
 .fit-center{
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -198,3 +198,79 @@ header .hamburger span{
     margin-left: -90px;
 
 }
+.skills{
+    padding: 50px 0px;
+}
+.skills h1{
+    margin-bottom: 60px ;
+    max-width: 300px;
+    margin-left: auto;
+    font-size: 25px;
+    position: relative;
+    
+}
+.skills h1 span{
+    color: red;
+}
+
+.skills h1::before{
+    content: ' ';
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    right: 90px;
+    bottom: 50px;
+    background-color: red;
+    transform: rotate(38deg);
+}
+
+.skills img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px ;
+}
+.skills p{
+    width: 210px;
+    height: 150px;
+    font-size: 12px;
+    line-height: 25px;
+}
+.skills div{
+   padding-right: 60px;  
+}
+
+.display{
+    padding-bottom: 100px ;
+}
+.display .image{
+    width: 400px;
+    height: 200px;
+}
+
+.display .number{
+ padding: 30px 70px;
+ position: relative;
+
+ 
+}
+.display h6{
+    color: red;
+    font-size: 13px;
+    margin-top: -10px;
+    font-weight: 100;
+}
+
+.display .vertical-line::after{
+    content: ' ';
+    position: absolute;
+    width: 150px;
+    height: .8px;
+    right: -70px;
+    bottom: 120px;
+    background-color: silver;
+    transform: rotate(90deg);
+    
+
+}
+
+

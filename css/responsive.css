@@ -31,17 +31,127 @@
         transform: translateX(-50%);
     }
 
+    .introduction .name h3{
+        margin: 0 auto;
+    }
+
+    .description {
+        margin-top: 60px;
+    }
+
+    .portfolio{
+        margin: 0 auto;
+        margin-top: 42px;
+    }
+    .display .image{
+       width: 200px;
+       height: 100px;
+    }
+    .display .vertical-line::after{
+        bottom: 70px;
+    }
     
+
+    
+}
+@media screen and (max-width:950px){
+    .display .image{
+        width: 800px;
+        height: 200px;
+     }
+     .display .number{
+        margin-top: 100px
+     }
+     .display .vertical-line::after{
+         width: 100px;
+        bottom: 60px;
+
+    }
+
+
+}
+@media screen and (max-width:888px){
+    .skills div{
+        margin-right: -10px;
+    }
+    .skills h1{
+        margin: 0 auto;
+        margin-bottom: 70px;
+       text-align: center;
+    }
+    .skills h1::before{
+        width: 110px;
+        right: 20px;
+        
+        
+    }
+
+}
+@media screen and (max-width:856px){
+    .skills div{
+        margin-right: -20px;
+    }
+    .skills h1{
+        margin: 0 auto;
+        margin-bottom: 70px;
+       text-align: center;
+    }
+    .skills h1::before{
+        width: 110px;
+        right: 20px;
+        
+        
+    }
+
+}
+@media screen and (max-width:805px){
+    .skills div{
+        margin-right: -30px;
+    }
+    .skills h1{
+        margin: 0 auto;
+        margin-bottom: 70px;
+       text-align: center;
+    }
+    .skills h1::before{
+        width: 110px;
+        right: 20px;
+        
+        
+    }
+
+}
+
+
+
+@media screen and (max-width:710px){
+    .name h3::before{
+        display: none;
+    }
+    .introduction{
+        margin-top: -50px ;
+    }
+}
+
+@media screen and (max-width:730px){
+    .display .vertical-line::after{
+        display: none;
+    }
+    .display .number{
+       padding: 0px;
+       padding: 0px 40px
+    }
+}
+
+@media screen and (max-width:730px){
+    .display .number{
+        max-width: 800px;
+     }
+
 }
 @media screen and (max-width:330px)
 {
      .banner{
          height: 110vh;
      }
-}
-@media screen and (max-width:992px)
-{
-}
-@media screen and (max-width:992px)
-{
 }
