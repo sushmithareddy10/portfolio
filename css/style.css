@@ -401,11 +401,17 @@ header .hamburger span{
 .form-box form .form-group #name{
     border: 0;
     border-bottom: solid 1px red;
+    width: 220px;
 }
-.form-box form .form-group #email,#subject{
+.form-box form .form-group #email{
     border: 0;
     border-bottom: solid 1px  #48D1CC ;
-   
+    width: 220px;
+ }
+.form-box form .form-group #subject{
+    border: 0;
+    border-bottom: solid 1px  #48D1CC ;
+    width: 400px;
  }
 
 .form-box form .form-group textarea{
@@ -493,6 +499,7 @@ footer .left p b::after{
  footer .left .newsletter #newsletter-email{
      border: 0;
      border-bottom: solid 1px #48D1CC;
+     width: 200px;
 
  }
 
