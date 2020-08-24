@@ -71,7 +71,7 @@
 
 }
 @media screen and (max-width:888px){
-    .skills div{
+    .skills .skill-list{
         margin-right: -10px;
     }
     .skills h1{
@@ -88,7 +88,7 @@
 
 }
 @media screen and (max-width:856px){
-    .skills div{
+    .skills .skill-list{
         margin-right: -20px;
     }
     .skills h1{
@@ -105,7 +105,7 @@
 
 }
 @media screen and (max-width:805px){
-    .skills div{
+    .skills .skill-list{
         margin-right: -30px;
     }
     .skills h1{

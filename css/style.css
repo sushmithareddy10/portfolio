@@ -75,7 +75,6 @@ header .hamburger span{
 
 .heading{
     color: white;
-    max-width: 420px;
     padding-top: 100px;
    
 }
@@ -187,7 +186,6 @@ header .hamburger span{
     line-height: 2px;
     color: white;
     padding-left: 100px;
-    border-left: solid 5px white;
 }
 
 .portfolio{
@@ -196,6 +194,7 @@ header .hamburger span{
     height: 100px;
     margin-top: 120px;
     margin-left: -90px;
+    border-left: solid 3px white;
 
 }
 .skills{
@@ -225,9 +224,8 @@ header .hamburger span{
 }
 
 .skills img{
-    width: 70px;
-    height: 70px;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
+    max-width: 59px; 
 }
 .skills p{
     width: 210px;
@@ -235,8 +233,8 @@ header .hamburger span{
     font-size: 12px;
     line-height: 25px;
 }
-.skills div{
-   padding-right: 60px;  
+.skills .skill-list{
+   padding: 0px 40px;
 }
 
 .display{
@@ -269,8 +267,127 @@ header .hamburger span{
     bottom: 120px;
     background-color: silver;
     transform: rotate(90deg);
-    
+}
 
+.multi-images h1{
+    max-width: 600px;
+    padding-left: 70px;
+    font-size: 30px;
+    position: relative;
+}
+
+.multi-images h1::before{
+    content: ' ';
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    left: -30px;
+    bottom: 50px;
+    background-color: red;
+    transform: rotate(-35deg);
+}
+.multi-images h1 .dot-color{
+    color: red;
+}
+.multi-images .square-image{
+    max-width: 500px;
+    height: 400px;
+    margin:60px 0px;
+}
+
+.multi-images .rectangle-image{
+    max-width: 500px;
+    height: 250px;
+    margin: 40px 0px;
+}
+
+
+.multi-images h6{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    position: relative;
+}
+.multi-images h6::after{
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 1.5px;
+    left: 145px;
+    bottom: 6px;
+    background-color: red;
+    transform: rotate(-111deg);
+    
+}
+.multi-images h6::before{
+    content: ' ';
+    position: absolute;
+    width: 10px;
+    height: 1.5px;
+    left: 150px;
+    bottom: 6px;
+    background-color: red;
+    transform: rotate(-111deg);
+}
+.multi-images h2{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.contact{
+    margin: 50px 0px;
+    margin-left: 80px;
+    background-color: #c3e6eb;
+    padding: 40px 0px;
+  max-width: 1050px;
+    border-left: solid 3px red;
+    
+}
+
+.contact .text{
+    text-align: center;
+
+}
+.contact h4{
+    font-size: 22px;
+}
+
+.contact .split-left h4{
+    margin-left: 250px;
+}
+.form-box{
+    margin-left: 300px;
+}
+.form-box .fit-center{
+    margin: 100px 0px;
+    border: solid 3px #48D1CC;
+    max-width: 700px;
+    height: 500px;
+}
+
+.form-box h1{
+    text-align: center;
+    padding-top: 140px;
+    font-size: 30px;
+    position: relative;
+}
+
+
+.form-box h1 .dot-color{
+    color: red;
+}
+
+.form-box h1::before{
+    content: ' ';
+    position: absolute;
+    width: 180px;
+    height: 1px;
+    left: 160px;
+    bottom: 50px;
+    background-color: red;
+    transform: rotate(-35deg);
 }
 
 
