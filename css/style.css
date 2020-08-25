@@ -60,10 +60,11 @@ header .hamburger{
 header .hamburger span{
     background-color: white;
     display: inline-block;
-    width: 5px;
+    width: 6px;
     height: 6px;
     margin-left: 3px;
-    margin-top: 16px;
+    margin-top: 17px;
+    border-radius: 50%;
 }
 
 .banner{
@@ -71,6 +72,7 @@ header .hamburger span{
     height: 92vh;
     position: relative;
     padding: 50px 0px;
+    padding-top: 100px;
 }
 
 .heading{
@@ -83,10 +85,12 @@ header .hamburger span{
     font-family:  'Work Sans', sans-serif;
     position: relative;
     padding-bottom: 20px;
+    font-size: 50px;
 }
 .heading h6{
     font-family: 'Open Sans', sans-serif;
     line-height: 30px;
+    font-size: 20px;
 }
 .heading h1::after{
     content: ' ';
@@ -98,7 +102,7 @@ header .hamburger span{
     background-color: #008B8B;
 }
 .font-icons{
-    margin-top: 10px;
+    margin-top: 35px;
     text-align: right;
 
 }
@@ -234,7 +238,10 @@ header .hamburger span{
     line-height: 25px;
 }
 .skills .skill-list{
-   padding: 0px 40px;
+    max-width: 251px;
+    width: 100%;
+    display: inline-block;
+    margin: 20px 23px;
 }
 
 .display{
@@ -363,7 +370,7 @@ header .hamburger span{
 .form-box .fit-center{
     margin: 100px auto;
     border: solid 5px #48D1CC;
-    max-width: 700px;
+    max-width: 850px;
     height: 750px;
 }
 
@@ -392,7 +399,14 @@ header .hamburger span{
 .form-box form{
     margin: 50px auto;
 }
+.form-box .form-wrap{
+    max-width: 600px;
+    margin: 0 auto;
+}
 
+.form-box form .half-input{
+    width: 48%; 
+}
 .form-box form .form-group{
    padding-left: 120px;
    border: 0;
@@ -401,17 +415,17 @@ header .hamburger span{
 .form-box form .form-group #name{
     border: 0;
     border-bottom: solid 1px red;
-    width: 220px;
+   
 }
 .form-box form .form-group #email{
     border: 0;
     border-bottom: solid 1px  #48D1CC ;
-    width: 220px;
+   
  }
 .form-box form .form-group #subject{
     border: 0;
     border-bottom: solid 1px  #48D1CC ;
-    width: 400px;
+   
  }
 
 .form-box form .form-group textarea{
@@ -424,7 +438,7 @@ header .hamburger span{
     background-color: red;
     max-width: 180px;
     height: 45px ;
-    margin: 0px 250px
+    margin: 0 auto;
 
 }
 .form-box .button h6{
