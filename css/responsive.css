@@ -1,157 +1,112 @@
 @media screen and (max-width:992px)
-{
+{   
+    
     .fix-center{
         width: 90%;
     }
-
-    .font-icons a{
-        display: inline-block;
-        padding: 0px 20px;
+    .banner{
+        height: 92vh;;
     }
-
-    .font-icons{
-        margin-top: 20px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    
-     .banner{
-         padding: 20px 0px;
-     }
     .banner .heading{
         text-align: center;
         margin: 0 auto;
-        padding-bottom: 30px;
-        max-width: 100%;
-        
-       
+        width: 100%;
+        padding-top: 37px;
     }
     .heading h1::after{
-        left:50%;
+        left: 50%;
         transform: translateX(-50%);
     }
-
-    .introduction .name h3{
-        margin: 0 auto;
-    }
-
-    .description {
-        margin-top: 60px;
-    }
-
-    .portfolio{
-        margin: 0 auto;
-        margin-top: 42px;
-    }
-    .display .image{
-       width: 200px;
-       height: 100px;
-    }
-    .display .vertical-line::after{
-        bottom: 70px;
+    .banner .font-icons a{
+        display: inline-block;
+        padding: 0px 32px;
     }
     
+    .banner .font-icons{
+        text-align: center;
+        margin: 170px auto;
+    }
+
+    .name h3 {
+        margin: 0 auto;
+        font-size: 30px;
+    }
+
+    .name h3::before{
+        left: 197px;
+        top: -2px;
+    }
+
+    .introduction .description{
+        padding-left: 0px;
+        margin: 30px auto;
+
+    }
+    .introduction .description p{
+      width: 100%;
+      max-width: 800px;
+   }
+   .portfolio {
+    margin: 100px auto
+    
+}
+.skills h1{
+    margin: 40px auto;
+    
+}
 
     
 }
-@media screen and (max-width:950px){
-    .display .image{
-        width: 800px;
-        height: 200px;
-     }
-     .display .number{
-        margin-top: 100px
-     }
-     .display .vertical-line::after{
-         width: 100px;
-        bottom: 60px;
 
+@media screen and (max-width:900px){
+    .name h3::before{
+        left: 140px;
+        top: 3px;
     }
 
-
-}
-@media screen and (max-width:888px){
     .skills .skill-list{
-        margin-right: -10px;
+        display: block;
+        margin: auto;
     }
-    .skills h1{
-        margin: 0 auto;
-        margin-bottom: 70px;
-       text-align: center;
-    }
-    .skills h1::before{
-        width: 110px;
-        right: 20px;
-        
-        
-    }
-
-}
-@media screen and (max-width:856px){
-    .skills .skill-list{
-        margin-right: -20px;
-    }
-    .skills h1{
-        margin: 0 auto;
-        margin-bottom: 70px;
-       text-align: center;
-    }
-    .skills h1::before{
-        width: 110px;
-        right: 20px;
-        
-        
-    }
-
-}
-@media screen and (max-width:805px){
-    .skills .skill-list{
-        margin-right: -30px;
-    }
-    .skills h1{
-        margin: 0 auto;
-        margin-bottom: 70px;
-       text-align: center;
-    }
-    .skills h1::before{
-        width: 110px;
-        right: 20px;
-        
-        
-    }
-
+    
 }
 
-
-
-@media screen and (max-width:710px){
+@media screen and (max-width:775px){
     .name h3::before{
         display: none;
     }
-    .introduction{
-        margin-top: -50px ;
-    }
-}
-
-@media screen and (max-width:730px){
-    .display .vertical-line::after{
+    .skills h1::before {
         display: none;
     }
-    .display .number{
-       padding: 0px;
-       padding: 0px 40px
-    }
-}
-
-@media screen and (max-width:730px){
-    .display .number{
-        max-width: 800px;
-     }
 
 }
-@media screen and (max-width:330px)
+
+
+@media screen and (max-width:441px)
 {
-     .banner{
-         height: 110vh;
-     }
+    .banner{
+        height: 70vh;;
+    }
+    .banner .font-icons a{
+        padding: 0px 20px;
+    }
+
+    .banner .font-icons{
+      
+        margin: 97px auto;
+    }
+    
 }
+@media screen and (max-width:389px){
+    .banner .heading {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 6px;
+    }
+    .banner .font-icons {
+        margin: 58px auto;
+    }
+
+}
+

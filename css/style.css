@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 p,a{
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif ;
 }
 
 a{
@@ -86,6 +86,7 @@ header .hamburger span{
     position: relative;
     padding-bottom: 20px;
     font-size: 50px;
+    
 }
 .heading h6{
     font-family: 'Open Sans', sans-serif;
@@ -149,7 +150,8 @@ header .hamburger span{
 }
 
 .description p{
-     max-width: 700px;
+     max-width: 500px;
+     font-size: 15px;
 }
 
 .two-lines{
@@ -209,6 +211,7 @@ header .hamburger span{
     max-width: 300px;
     margin-left: auto;
     font-size: 25px;
+    font-weight: 700;
     position: relative;
     
 }
@@ -232,8 +235,6 @@ header .hamburger span{
     max-width: 59px; 
 }
 .skills p{
-    width: 210px;
-    height: 150px;
     font-size: 12px;
     line-height: 25px;
 }
@@ -242,6 +243,9 @@ header .hamburger span{
     width: 100%;
     display: inline-block;
     margin: 20px 23px;
+}
+.skills .skill-list h5{
+    font-weight: 700;
 }
 
 .display{
@@ -255,6 +259,7 @@ header .hamburger span{
 .display .number{
  padding: 30px 70px;
  position: relative;
+ font-weight: 700;
 
  
 }
@@ -263,6 +268,7 @@ header .hamburger span{
     font-size: 13px;
     margin-top: -10px;
     font-weight: 100;
+    font-weight: 700;
 }
 
 .display .vertical-line::after{
@@ -281,6 +287,7 @@ header .hamburger span{
     padding-left: 70px;
     font-size: 30px;
     position: relative;
+    font-weight: 700;
 }
 
 .multi-images h1::before{
@@ -314,6 +321,7 @@ header .hamburger span{
     text-align: center;
     margin-top: 20px;
     font-size: 13px;
+    font-weight: 700;
     position: relative;
 }
 .multi-images h6::after{
@@ -340,6 +348,7 @@ header .hamburger span{
 .multi-images h2{
     text-align: center;
     font-size: 25px;
+    font-weight: 700;
     
 }
 
@@ -359,10 +368,12 @@ header .hamburger span{
 }
 .contact h4{
     font-size: 22px;
+    font-weight: 700;
 }
 
 .contact .split-left h4{
     margin-left: 250px;
+    font-weight: 700;
 }
 /* .form-box{
     margin-left: 300px;
@@ -370,7 +381,7 @@ header .hamburger span{
 .form-box .fit-center{
     margin: 100px auto;
     border: solid 5px #48D1CC;
-    max-width: 850px;
+    max-width: 800px;
     height: 750px;
 }
 
@@ -378,6 +389,7 @@ header .hamburger span{
     text-align: center;
     padding-top: 140px;
     font-size: 30px;
+    font-weight: 700;
     position: relative;
 }
 
@@ -400,37 +412,50 @@ header .hamburger span{
     margin: 50px auto;
 }
 .form-box .form-wrap{
-    max-width: 600px;
+    max-width: 490px;
     margin: 0 auto;
+    
+}
+.form-box .form-wrap .form-group input{
+    display: block;
 }
 
 .form-box form .half-input{
-    width: 48%; 
+   width: 48%;
+   display: inline-block;
+
+}
+.form-box form .left-input{
+    margin-right: 15px;
 }
 .form-box form .form-group{
-   padding-left: 120px;
    border: 0;
    border-bottom: 1px red;
 }
 .form-box form .form-group #name{
     border: 0;
     border-bottom: solid 1px red;
+    width: 100%;
    
 }
 .form-box form .form-group #email{
     border: 0;
     border-bottom: solid 1px  #48D1CC ;
+    width: 100%;
+
    
  }
 .form-box form .form-group #subject{
     border: 0;
     border-bottom: solid 1px  #48D1CC ;
+    width: 100%;
    
  }
 
 .form-box form .form-group textarea{
     border: 0;
    border-bottom: solid 1px #48D1CC;
+   width: 100%;
   
 }
 
@@ -472,7 +497,7 @@ header .hamburger span{
     
 }
 footer .fit-center{
-    max-width: 700px;
+    max-width: 800px;
     margin-bottom: 50px;
 
 }
@@ -522,14 +547,14 @@ footer .left p b::after{
  }
 
  footer .right .telephone-number{
-     padding-left: 210px;
+    text-align: right;
  }
  footer .right .email{
-    padding-left: 130px;
+    text-align: right;
 
  }
  footer .right .address{
-    padding-left: 84px;
+    text-align: right;
  }
 
 
