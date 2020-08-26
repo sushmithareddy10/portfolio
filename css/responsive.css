@@ -48,14 +48,88 @@
    }
    .portfolio {
     margin: 100px auto
-    
-}
-.skills h1{
+   }
+   .skills h1{
     margin: 40px auto;
+   }
+   .display .row{
+    display: block;
+   }
+ .display .vertical-line::after{
+    display: none;
+ }
+
+ .display .image{
+    margin: 0 auto;
+ }
+ .display .number{
+    margin: 0 auto;
+    max-width: 230px
+ }
+
+ .multi-images h1 {
+    max-width: 370px;
+    margin: 30px auto;
+ }
+ .multi-images .square-image {
+    height: 440px;
+    margin: 0 auto;
+ }
+ .multi-images .rectangle-image {
+    height: 278px;
+    margin: 0 auto;
+ }
+
+ footer .left{
+     text-align: center;
+     margin-bottom: 16px;
+ }
+ 
+ footer .right .telephone-number{
+    text-align: center;
+ }
+ footer .right .email{
+    text-align: center;
+
+ }
+ footer .right .address{
+    text-align: center;
+ }
+ footer .left p b::before {
+    display: none;
+}
+footer .left p b::after {
+    display: none;
     
 }
 
+}
+  
+
+@media screen and (max-width:991px){
+    contact .split-left h4 {
+        padding-left: 20px;
+        text-align: center;
+    }
     
+    contact .split-right h4{
+        text-align: center;
+        padding-left: 30px;
+    }
+
+    .contact .split-left h4 {
+      max-width: 310px;
+      margin: 0 auto;
+      padding-left: 60px;
+    }
+    .contact .split-right h4 {
+        max-width: 300px;
+         margin: 0 auto;
+         margin-top: 20px;
+         padding-left: 50px;
+    }
+    
+      
 }
 
 @media screen and (max-width:900px){
@@ -78,7 +152,55 @@
     .skills h1::before {
         display: none;
     }
+    .form-box h1::before {
+        display: none;
+    }
+    .multi-images h1::before {
+        display: none;
+    }
+}
 
+@media screen and (max-width:620px){
+    .multi-images .square-image {
+        max-width: 415px;
+    }
+    .multi-images .rectangle-image {
+        max-width: 420px;
+    }
+
+    .multi-images h6::after{
+        left: 140px;
+        bottom: 6px;
+        
+    }
+    .multi-images h6::before{
+        left: 145px;
+        bottom: 6px;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .display .image {
+        max-width: 334px;
+    }
+
+    .multi-images .square-image {
+        max-width: 300px;
+    }
+    .multi-images .rectangle-image {
+        max-width: 300px;
+    }
+
+    .multi-images h6::after{
+        left: 85px;
+        bottom: 6px;
+        
+    }
+    .multi-images h6::before{
+        left: 90px;
+        bottom: 6px;
+    }
 }
 
 
@@ -106,6 +228,17 @@
     }
     .banner .font-icons {
         margin: 58px auto;
+    }
+
+
+    .multi-images h6::after{
+        left: 50px;
+        bottom: 6px;
+        
+    }
+    .multi-images h6::before{
+        left: 55px;
+        bottom: 6px;
     }
 
 }
