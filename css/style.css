@@ -73,6 +73,7 @@ header .hamburger span{
     position: relative;
     padding: 50px 0px;
     padding-top: 100px;
+    margin-top: -1px;
 }
 
 .heading{
@@ -430,14 +431,21 @@ header .hamburger span{
    border: 0;
    border-bottom: 1px red;
 }
+.form-box .form-group span{
+    margin-top: 20px;
+    color: red;
+    font-size: 10px;
+}
 .form-box form .form-group #name{
     border: 0;
+    outline: none;
     border-bottom: solid 1px red;
     width: 100%;
    
 }
 .form-box form .form-group #email{
     border: 0;
+    outline: none;
     border-bottom: solid 1px  #48D1CC ;
     width: 100%;
 
@@ -445,6 +453,7 @@ header .hamburger span{
  }
 .form-box form .form-group #subject{
     border: 0;
+    outline: none;
     border-bottom: solid 1px  #48D1CC ;
     width: 100%;
    
@@ -452,44 +461,50 @@ header .hamburger span{
 
 .form-box form .form-group textarea{
     border: 0;
+    outline: none;
    border-bottom: solid 1px #48D1CC;
    width: 100%;
   
 }
-
-.form-box .button{
+.form-box .button
+{
     background-color: red;
-    max-width: 180px;
+    max-width: 200px;
     height: 45px ;
     margin: 0 auto;
+}
+
+.form-box button{
+    background-color: red;
+    text-align:center;
+    height: 45px ;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    position: relative;
 
 }
-.form-box .button h6{
-    color: #fff;
-    font-size: 13px;
-    padding-left: 45px;
-    padding-top: 12px;
-    position: relative;
-}
-.form-box .button h6::before{
+.form-box button::before{
     content: ' ';
     position: absolute;
     width:10px;
     height: 1.2px;
-    left: 30px;
-    bottom: 5px;
+    left: -20px;
+    bottom: 20px;
     background-color: #fff;
     transform: rotate(60deg);
     
 }
 
-.form-box .button h6::after{
+.form-box button::after{
     content: ' ';
     position: absolute;
     width:10px;
     height: 1.2px;
-    left: 25px;
-    bottom: 5px;
+    left: -15px;
+    bottom: 20px;
     background-color: #fff;
     transform: rotate(60deg);
     
@@ -535,6 +550,7 @@ footer .left p b::after{
 
  footer .left .newsletter #newsletter-email{
      border: 0;
+     outline: none;
      border-bottom: solid 1px #48D1CC;
      width: 200px;
 

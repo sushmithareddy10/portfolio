@@ -50,7 +50,12 @@
     margin: 100px auto
    }
    .skills h1{
-    margin: 40px auto;
+    margin:40px auto;
+    text-align: center;
+   }
+   .skills .skill-list{
+       margin: 40px auto;
+       text-align: center;
    }
    .display .row{
     display: block;
@@ -69,7 +74,6 @@
 
  .multi-images h1 {
     max-width: 370px;
-    margin: 30px auto;
  }
  .multi-images .square-image {
     height: 440px;
@@ -144,6 +148,29 @@ footer .left p b::after {
     }
     
 }
+@media screen and (max-width:768px){
+    .introduction{
+        margin-top: -51px;
+    }
+    .skills{
+        margin-top: -162px
+    }
+    .multi-images h1 {
+       
+            margin-top: -23px;
+            margin: 0px auto
+    }
+    .multi-images .square-image {
+       margin:70px auto;
+    }
+    .multi-images .rectangle-image {
+        margin:70px auto;
+     }
+     .form-box .fit-center {
+        
+        max-width: 534px;
+    }
+}
 
 @media screen and (max-width:775px){
     .name h3::before{
@@ -180,6 +207,12 @@ footer .left p b::after {
 
 }
 
+@media screen and (max-width:545px){
+    .form-box .fit-center {
+        max-width: 498px;
+    }
+}
+
 @media screen and (max-width:500px){
     .display .image {
         max-width: 334px;
@@ -201,6 +234,9 @@ footer .left p b::after {
         left: 90px;
         bottom: 6px;
     }
+    .form-box .fit-center {
+        max-width: 439px;
+    }
 }
 
 
@@ -217,6 +253,11 @@ footer .left p b::after {
       
         margin: 97px auto;
     }
+
+    .form-box .fit-center {
+        max-width: 379px;
+    }
+
     
 }
 @media screen and (max-width:389px){
@@ -239,6 +280,9 @@ footer .left p b::after {
     .multi-images h6::before{
         left: 55px;
         bottom: 6px;
+    }
+    .form-box .fit-center {
+        max-width: 349px;
     }
 
 }
