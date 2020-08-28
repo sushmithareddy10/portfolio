@@ -427,10 +427,7 @@ header .hamburger span{
 .form-box form .left-input{
     margin-right: 15px;
 }
-.form-box form .form-group{
-   border: 0;
-   border-bottom: 1px red;
-}
+
 .form-box .form-group span{
     margin-top: 20px;
     color: red;
